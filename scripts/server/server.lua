@@ -36,7 +36,7 @@ local function changeGameObject(clientID, paramTable)
 end
 
 --- ****************************************************************
---- @author Rae
+--- @author death-rae
 --- created local functions for maxNeeds, growPlant, and replenishPlant
 --- maxNeeds: calls sapienUtility to max the needs for all selected sapiens. Called by maxNeedsAction.lua maxNeedsAction:onClick
 --- growPlant: an update to forceGrow. Rather than replicating logic from growSapling, just call the growSaplingCheat method. Called by actions.lua forceGrowAction:onClick.
