@@ -6,6 +6,15 @@ local mj = mjrequire "common/mj"
 
 local sapienUtility = {}
 
+-- TODO
+-- add functions for sapien ui
+-- see & edit traits
+-- see skills
+-- see roles & suggest based on skill, gender
+-- set roles
+-- role templates?
+-- end TODO
+
 function sapienUtility:maxSapienNeeds(objects)
     
 	mj:log("got to custom needs function in sapienUtility", objects)
